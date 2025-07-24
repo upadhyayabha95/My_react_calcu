@@ -1,49 +1,12 @@
-# My_react_calcu
+# React + Vite
 
-## Project Structure 
-```
-react-routing-calculator/
-├── node_modules/               
-├── public/
-│   └── vite.svg                
-├── src/
-│   ├── assets/                 
-│   ├── pages/
-│   │   ├── About.jsx           
-│   │   ├── Calculator.jsx     
-│   │   ├── Home.jsx          
-│   │   ├── MyCalculator.jsx    
-│   │   ├── MyCalculator.css    
-│   │   └── Users.jsx           
-│   ├── App.jsx                 
-│   ├── App.css                
-│   ├── index.css               
-│   └── main.jsx                
-├── eslint.config.js            
-├── index.html                  
-├── package.json                
-├── package-lock.json          
-├── vite.config.js              
-└── README.md                   
-```
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## How to use this repo:-
-- Install NodeJS (if not already)
-- npm install react-router-dom  (if not already)
-- Download the repo
-- cd inside the repo
-- npm install
-- npm run dev
+Currently, two official plugins are available:
 
-- Your app will run on: http://localhost:5173
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Every time : just run:-
-npm run dev
+## Expanding the ESLint configuration
 
-## How to create a new react project?
-
-  - npm create vite@latest my-app -- --template react
-  - cd my-app
-  - npm install react-router-dom
-  - npm install
-  - npm run dev
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

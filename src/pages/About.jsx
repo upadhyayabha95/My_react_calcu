@@ -3,10 +3,11 @@ function About() {
   	<div>
 	  	<h1>This is About Page</h1>
 	  	 <p>
-        Welcome to simple calculator web application! This site is designed to help users quickly perform basic arithmetic operations on two numbers.
+        Welcome to simple calculator web application! 
       </p>
+
       <p>
-        Whether you're adding, subtracting, multiplying, or dividing, this calculator makes it easy with a clean and responsive interface.
+        This site is designed to help users quickly perform basic arithmetic operations on two numbers. Whether you're adding, subtracting, multiplying, or dividing, this calculator makes it easy with a clean and responsive interface.
       </p>
       <p>
         Key features include: Performing basic arithmetic operations (+, −, ×, ÷). Clear input and reset functionality. Automatic result updates.</p>
